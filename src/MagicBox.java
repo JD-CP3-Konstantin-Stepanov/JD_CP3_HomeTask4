@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class MagicBox<T> {
     protected T[] boxItems;
-    protected int BoxSize;
+    protected int boxSize;
 
     public MagicBox(int BoxSize) {
         this.BoxSize = BoxSize;
