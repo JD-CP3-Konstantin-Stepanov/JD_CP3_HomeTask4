@@ -3,10 +3,10 @@ import java.util.Random;
 
 public class MagicBox<T> {
     protected T[] boxItems;
-    protected int BoxSize;
+    protected int boxSize;
 
     public MagicBox(int BoxSize) {
-        this.BoxSize = BoxSize;
+        this.boxSize = BoxSize;
         this.boxItems = (T[]) new Object[BoxSize];
     }
 
@@ -36,7 +36,7 @@ public class MagicBox<T> {
         }
 
         Random random = new Random();
-        notFilled = random.nextInt(this.BoxSize);
+        notFilled = random.nextInt(this.boxSize);
         System.out.println("Random number: " + notFilled);
         System.out.println("Result:");
         return this.boxItems[notFilled];

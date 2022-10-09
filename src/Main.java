@@ -23,8 +23,8 @@ public class Main {
         MagicBox<Integer> MagicBox3 = new MagicBox<>(3);
         System.out.println(MagicBox3.add(1));
         MagicBox3.getBoxItems();
-
         System.out.println(MagicBox3.pick());
+
         MagicBox<String> MagicBox4 = new MagicBox<>(3);
         System.out.println(MagicBox4.add("один"));
         System.out.println(MagicBox4.add("два"));
